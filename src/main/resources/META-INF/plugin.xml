@@ -52,5 +52,12 @@
                          level="INFORMATION"
                          language="kotlin"
                          displayName="Fill with empty values" />
+        <localInspection implementationClass="com.github.suusan2go.kotlinfillclass.inspections.FillVariablesFromOtherObjSameNameInspection"
+                         groupPath="Kotlin"
+                         groupName="Fill class"
+                         enabledByDefault="true"
+                         level="INFORMATION"
+                         language="kotlin"
+                         displayName="Fill with with other object same name" />
     </extensions>
 </idea-plugin>
