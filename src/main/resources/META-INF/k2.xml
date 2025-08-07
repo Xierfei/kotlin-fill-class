@@ -30,5 +30,15 @@
                 language="kotlin"
                 displayName="Fill with empty values (K2)"
                 shortName="FillEmptyValuesK2"/>
+
+        <localInspection
+                implementationClass="com.github.suusan2go.kotlinfillclass.inspections.k2.FillVariablesOtherObjOfSameNameInspection"
+                groupPath="Kotlin"
+                groupName="Fill class"
+                enabledByDefault="true"
+                level="INFORMATION"
+                language="kotlin"
+                displayName="Fill with empty values (K2)"
+                shortName="FillEmptyOtherSaneNameK2"/>
     </extensions>
 </idea-plugin>
